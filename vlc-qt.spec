@@ -43,7 +43,7 @@ Files needed to build applications based on %{name}
 
 %build
 mkdir build && cd build
-%cmake_kde4 ..
+%cmake ..
 make
 
 
